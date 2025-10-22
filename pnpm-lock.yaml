@@ -38,6 +38,9 @@ importers:
       '@supabase/supabase-js':
         specifier: ^2.75.1
         version: 2.75.1
+      '@tabler/icons-react':
+        specifier: 3.32.0
+        version: 3.32.0(react@19.1.0)
       '@tanstack/react-query':
         specifier: ^5.90.5
         version: 5.90.5(react@19.1.0)
@@ -1057,6 +1060,14 @@ packages:
 
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
+
+  '@tabler/icons-react@3.32.0':
+    resolution: {integrity: sha512-XKX+CLlUVWcbckqXvgc+iThps73JbIjOCdeFxuJta+z5T1qZx/YVUUdKBf44MysZQ0EArDiSz63O/YXkbKe9PA==}
+    peerDependencies:
+      react: '>= 16'
+
+  '@tabler/icons@3.32.0':
+    resolution: {integrity: sha512-G3vIw0a6ORJnRhyoTgT6+k93EOYqQx5uUapX70VsT19MDHc7ie3+HxXWc7a+IX3dYuFXSUqcAzjpLenJaj3Hfg==}
 
   '@tailwindcss/node@4.1.14':
     resolution: {integrity: sha512-hpz+8vFk3Ic2xssIA3e01R6jkmsAhvkQdXlEbRTk6S10xDAtiQiM3FyvZVGsucefq764euO/b8WUW9ysLdThHw==}
@@ -3729,6 +3740,13 @@ snapshots:
   '@swc/helpers@0.5.15':
     dependencies:
       tslib: 2.8.1
+
+  '@tabler/icons-react@3.32.0(react@19.1.0)':
+    dependencies:
+      '@tabler/icons': 3.32.0
+      react: 19.1.0
+
+  '@tabler/icons@3.32.0': {}
 
   '@tailwindcss/node@4.1.14':
     dependencies:
