@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect } from "react";
 import { useAuth } from "../context/auth-context";
 import { useRouter } from "next/navigation";
@@ -35,8 +37,7 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
     );
   }
 
-  if (!user) return null;
-  return children;
+  return <>{children}</>;
 };
 
 export default ProtectedRoute;
